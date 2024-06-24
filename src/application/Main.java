@@ -39,7 +39,6 @@ public class Main {
                 if(capturedPiece != null) {
                     capturedPiecesList.add(capturedPiece);
                 }
-
             } catch (ChessException error) {
                 System.out.println(error.getMessage());
                 sc.nextLine();
